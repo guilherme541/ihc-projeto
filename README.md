@@ -15,7 +15,6 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Uma
 ## Conhecendo o problema
 Segurança em canteiros de obras é comprometida pela complexa interação entre operários e equipamentos, exigindo monitoramento constante. O desafio está em identificar riscos em tempo real, o que requer análise tridimensional de múltiplas perspectivas aéreas. Para isso, o trabalho propõe uma metodologia inovadora baseada em visão computacional e aprendizado profundo, utilizando drones (VANTs) para analisar vídeos e detectar situações perigosas, emitindo alertas preventivos para evitar acidentes.
 
-Sobre o produto ou serviço que seu grupo está desenvolvendo, responda:
 - Apresente uma breve descrição.
 - Apresente o objetivo.
   
