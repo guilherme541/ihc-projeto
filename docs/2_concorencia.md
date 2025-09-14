@@ -11,20 +11,46 @@
 
 ---
 ## Colete informações sobre os concorrentes selecionados.
+
 ### Condor CFTV
-A Condor CFTV se apresenta como uma solução completa e modular para centrais de monitoramento, com mais de 25 anos de atuação no mercado de segurança eletrônica. Seu portfólio integra sistemas de alarme, CFTV, mapas, aplicativos móveis e monitoramento web, oferecendo recursos voltados para videomonitoramento, segurança perimetral e gestão centralizada das operações.
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/321e7e76-5748-4f78-9cda-92159b19ec71" />
+
+A Condor CFTV se apresenta como uma solução completa e modular para centrais de monitoramento, com mais de 25 anos de atuação no mercado de segurança eletrônica. Seu portfólio integra sistemas de alarme, CFTV, mapas, aplicativos móveis e monitoramento web, oferecendo recursos voltados para videomonitoramento, segurança perimetral e gestão centralizada das operações. https://softwarecondor.com.br/
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/91ee60bf-2a57-43f2-957b-166ebfe8ae9d" />
+
 
 ### Segware
-A Segware é reconhecida como referência em inovação para segurança eletrônica, com soluções completas que envolvem alarme, vídeo, controle de acesso e mobilidade. Seu diferencial está na adoção de Inteligência Artificial aplicada em toda a operação, trazendo automação, análise em tempo real e melhor experiência para gestores e operadores.
+<img width="300" height="300" alt="{5A359EB2-B9FA-47BD-9041-619F33F903C7}" src="https://github.com/user-attachments/assets/d15a9aab-47bf-4f7c-b331-c94c8ea8a776" />
+
+A Segware é reconhecida como referência em inovação para segurança eletrônica, com soluções completas que envolvem alarme, vídeo, controle de acesso e mobilidade. Seu diferencial está na adoção de Inteligência Artificial aplicada em toda a operação, trazendo automação, análise em tempo real e melhor experiência para gestores e operadores. https://segware.com/
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/a25286ca-46be-4b45-a183-bd0b75c7a278" />
+
 
 ### Monuv
-A Monuv se destaca pela simplicidade, escalabilidade e uso de nuvem como principais diferenciais em relação a sistemas tradicionais. Sua proposta facilita o acesso a tecnologias de IA e videomonitoramento sem grandes custos iniciais, tornando a experiência de uso mais acessível, moderna e conectada para gestores e empresas de segurança.
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3c969a89-07f6-472a-ab65-8819f04b91cb" />
+
+A Monuv se destaca pela simplicidade, escalabilidade e uso de nuvem como principais diferenciais em relação a sistemas tradicionais. Sua proposta facilita o acesso a tecnologias de IA e videomonitoramento sem grandes custos iniciais, tornando a experiência de uso mais acessível, moderna e conectada para gestores e empresas de segurança. https://monuv.com.br/
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8cd21681-57af-4321-8ea1-dc70bf6e7a41" />
+
 
 ### Seventh
-A Seventh é especializada no desenvolvimento de softwares para videomonitoramento e segurança eletrônica, sendo mais conhecida pelo D-Guard Center, um dos softwares mais utilizados por centrais de monitoramento no Brasil. Seu foco está em flexibilidade, integração e escalabilidade, oferecendo soluções robustas tanto para empresas de segurança quanto para corporações de grande porte.
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/285f5a26-2fc2-4044-85a9-d168bf9de632" />
+
+A Seventh é especializada no desenvolvimento de softwares para videomonitoramento e segurança eletrônica, sendo mais conhecida pelo D-Guard Center, um dos softwares mais utilizados por centrais de monitoramento no Brasil. Seu foco está em flexibilidade, integração e escalabilidade, oferecendo soluções robustas tanto para empresas de segurança quanto para corporações de grande porte. https://www.seventh.com.br/
+
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/208246f3-b960-4fca-94fc-cf17a4e6a5c1" />
+
 
 ### Veesion
-A Veesion é especializada em análise de vídeo em tempo real com Inteligência Artificial, voltada principalmente para o varejo e ambientes comerciais. Sua tecnologia utiliza algoritmos de deep learning para detectar automaticamente comportamentos suspeitos e atitudes indicativas de furto ou risco, enviando alertas imediatos para operadores ou responsáveis.
+<img width="300" height="300" alt="{6B7F52D4-C05B-4322-AB0A-F0374EE32ED2}" src="https://github.com/user-attachments/assets/be3450bc-cd6b-4b0f-a95b-5cbf288a3a35" />
+
+A Veesion é especializada em análise de vídeo em tempo real com Inteligência Artificial, voltada principalmente para o varejo e ambientes comerciais. Sua tecnologia utiliza algoritmos de deep learning para detectar automaticamente comportamentos suspeitos e atitudes indicativas de furto ou risco, enviando alertas imediatos para operadores ou responsáveis. https://veesion.io/pt/
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b8c4c389-7a72-42d0-a3d7-6a3d0d5f9c35" />
+
 
 ## Analise as características e funcionalidades dos concorrentes.
 
