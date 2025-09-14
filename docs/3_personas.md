@@ -295,19 +295,37 @@
 
 # Contexto de uso
 
-- Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
-- O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
+O sistema será utilizado principalmente em canteiros de obras de construção civil, ambientes caracterizados por atividades de alto risco e dinâmica operacional intensa. No nível operacional, técnicos de segurança utilizam interfaces móveis diretamente no campo para monitorar situações em tempo real e responder a alertas de segurança. Já no nível estratégico, gestores de obra utilizam o sistema em ambientes corporativos para análise de dados, geração de relatórios executivos e tomada de decisões sobre investimentos em segurança.
+
+O setor emprega milhões de trabalhadores, predominantemente homens de classes média-baixa e baixa, com diferentes níveis de escolaridade e experiência em tecnologia. Existe uma cultura histórica de resistência a mudanças e ceticismo em relação a novas tecnologias, combinada com pressão econômica constante por redução de custos e cumprimento de prazos. Ademais, há a crescente pressão regulatória por conformidade com normas de segurança (NRs) e demanda do mercado por certificações ESG e práticas sustentáveis.
+
+Antes de iniciar a interação, o sistema precisa guardar informações cruciais do ambiente, como configuração e posicionamento dos drones de monitoramento, mapeamento das áreas de risco do canteiro, cronograma de atividades e escalas de trabalho, e credenciais e níveis de acesso dos usuários do sistema. Também deve armazenar dados sobre tipos de equipamentos em operação e procedimentos específicos de segurança para cada fase da obra.
+
+Durante a interação, o ambiente está em constante atividade, com centenas de trabalhadores executando tarefas simultâneas de alto risco, máquinas e equipamentos pesados em operação, movimentação de materiais e condições ambientais variáveis (clima, iluminação, ruído). Enquanto isso, técnicos de segurança respondem a alertas em tempo real, gerentes de segurança analisam padrões de risco e coordenam ações preventivas, e gestores de obra utilizam dados consolidados para otimizar recursos, demonstrar conformidade regulatória e comunicar resultados para stakeholders externos como clientes, investidores e órgãos fiscalizadores.
+
 
 # Jornada do usuário
 
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
-- Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+## Gerente de Segurança do Trabalho - Ricardo Santos
 
+Ricardo chega ao container administrativo da obra às 6h30, 30 minutos antes do início das atividades. Como gerente de segurança, precisa garantir que todos os sistemas estejam operacionais antes da chegada dos operários. Liga seu tablet corporativo e acessa o sistema de monitoramento. Após inserir suas credenciais, a tela inicial exibe o dashboard executivo com status geral da obra: câmeras ativas, drones em posição, áreas mapeadas e histórico da noite anterior.
 
+Às 7h00, os operários começam a chegar. Ricardo ativa o modo "monitoramento ativo" e o sistema inicia a captura automatizada por drones. Ele acompanha em tempo real a entrada dos trabalhadores, verificando se estão utilizando EPIs corretamente. O sistema detecta três trabalhadores sem capacete na área de vivência - ainda não é área de risco, mas Ricardo registra a ocorrência para orientação posterior.
 
+Durante a manhã, Ricardo recebe um alerta crítico: "Pessoa detectada em área de risco sem EPI - Bloco A, Andar 15". Ele imediatamente acessa as imagens ao vivo, identifica o trabalhador e aciona o técnico de segurança responsável via sistema. O incidente é registrado automaticamente com timestamp, localização exata e evidências visuais. Ricardo acompanha a resolução em tempo real até confirmar que o trabalhador saiu da área perigosa.
+
+À tarde, Ricardo utiliza o módulo de análise para investigar um padrão que notou: aumento de alertas de EPI na área do guincho. Aplica filtros por localização e horário, identifica que os alertas se concentram entre 14h-16h quando há troca de turno. Registra sua análise e programa treinamento específico para essa equipe.
+
+---
+
+## Engenheira Civil e Gestora de Obra - Fernanda Costa
+
+Fernanda inicia seu dia às 8h00 em seu escritório na sede da construtora. Como gestora de múltiplas obras, precisa de uma visão consolidada da segurança em todos os projetos. Acessa o sistema através de seu computador corporativo e, após autenticação, visualiza o dashboard executivo com KPIs de todas as obras sob sua responsabilidade.
+
+Sua primeira ação é revisar o relatório consolidado da noite anterior. O sistema apresenta métricas comparativas: Obra A - 0 incidentes, Obra B - 2 alertas resolvidos, Obra C - 1 quase-acidente investigado. Fernanda identifica que a Obra C precisa de atenção especial e agenda visita para o período da tarde.
+
+Às 10h00, Fernanda recebe uma notificação crítica da Obra B: "Incidente grave - Queda de material em área de circulação". Ela imediatamente acessa as imagens ao vivo, observa que não houve feridos mas a situação exige investigação. Através do sistema, coordena a resposta: aciona o gerente de segurança local, solicita isolamento da área e programa reunião de investigação para as 14h00.
+
+Às 16h00, Fernanda acessa o módulo de tendências para análise estratégica. Observa que os incidentes relacionados a materiais aumentaram 15% no último trimestre. Decide implementar novo protocolo de segurança e utiliza o sistema para documentar a decisão, anexar justificativas baseadas em dados e programar treinamentos.
 
 [1] Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
