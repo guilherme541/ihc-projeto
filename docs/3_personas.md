@@ -170,20 +170,128 @@
 - Histórico de treinamentos ministrados
 - Métricas de segurança das áreas supervisionadas
 
-> **_NOTE:_**: Cada persona deve ter uma foto de rosto que a represente. Vocês podem utilizar esse [site](https://thispersondoesnotexist.com/) para gerar as fotos.
 
 # Mapa de empatia
 
 ![Mapa de empatia](imagens/empatia.png)
 
-- Determine o mapa de empatia[1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou poduto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou poduto. Quais expectativas o usuário cria sobre o serviço ou poduto?
-  Que tipo de serviço ou poduto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+## Mapa de Empatia - Persona Primária
+### Ricardo Santos - Gerente de Segurança do Trabalho
+
+**Nome:** Ricardo Santos  
+**Idade:** 42 anos
+
+### O que ele VÊ?
+- Canteiros de obra com múltiplos riscos potenciais
+- Operários trabalhando em condições variadas de segurança
+- Relatórios de acidentes de outras empresas no setor
+- Pressão da alta gestão por resultados
+- Fiscalizações frequentes de órgãos reguladores
+- Tecnologias emergentes no setor de construção
+- Concorrentes investindo em inovação
+
+### O que ele OUVE?
+- Cobranças da diretoria sobre metas de zero acidentes
+- Reclamações de operários sobre procedimentos "burocráticos"
+- Feedbacks de técnicos sobre situações de risco
+- Discussões em seminários sobre novas normas
+- Relatos de acidentes graves em outras obras
+- Elogios quando consegue manter bons índices de segurança
+- Críticas quando há falhas no monitoramento
+
+### O que ele PENSA E SENTE?
+- Responsabilidade extrema pelo bem-estar das equipes
+- Ansiedade constante sobre possíveis acidentes
+- Orgulho quando implementa soluções eficazes
+- Frustração com a resistência à mudança
+- Confiança em sua experiência técnica
+- Pressão por estar sempre atualizado
+- Satisfação ao ver tecnologia facilitando seu trabalho
+
+### O que ele FALA E FAZ?
+- Conduz reuniões diárias de segurança
+- Elabora relatórios detalhados para auditoria
+- Treina equipes sobre normas e procedimentos
+- Implementa novas tecnologias de monitoramento
+- Defende investimentos em segurança para a diretoria
+
+### DORES
+- Sobrecarga de informações para analisar manualmente
+- Dificuldade em monitorar múltiplas áreas simultaneamente
+- Pressão por reduzir custos sem comprometer segurança
+- Resistência cultural dos trabalhadores à adoção de novas tecnologias
+- Responsabilidade legal em caso de acidentes
+- Falta de dados em tempo real para tomada de decisão
+- Dificuldade em demonstrar ROI de investimentos preventivos
+
+### GANHOS
+- Redução significativa no tempo gasto em inspeções manuais
+- Confiança aumentada através de monitoramento 24/7 automatizado
+- Reconhecimento profissional por implementar soluções inovadoras
+- Tranquilidade ao ter dados precisos para tomada de decisão
+- Eficiência na geração de relatórios para auditorias
+- Satisfação ao prevenir acidentes de forma proativa
+
+---
+
+## Mapa de Empatia - Persona Secundária
+### Fernanda Costa - Engenheira Civil e Gestora de Obra
+
+**Nome:** Fernanda Costa  
+**Idade:** 35 anos
+
+### O que ela VÊ?
+- Pressão de cronogramas apertados
+- Investidores questionando custos de segurança
+- Competição acirrada no mercado de construção
+- Clientes exigindo certificações de sustentabilidade
+- Obras sendo embargadas por questões de segurança
+- Cases de sucesso em automação de canteiros
+- Relatórios financeiros mostrando impacto de acidentes
+
+### O que ela OUVE?
+- Questionamentos sobre custos de implementação
+- Demandas por maior eficiência operacional
+- Elogios quando entrega projetos sem acidentes
+- Críticas quando há atrasos por questões de segurança
+- Discussões sobre Industry 4.0 na construção
+- Feedbacks de clientes sobre práticas ESG
+- Comentários de colegas sobre inovações tecnológicas
+
+### O que ela PENSA E SENTE?
+- Necessidade de equilibrar prazo, custo e segurança
+- Orgulho por liderar projetos complexos
+- Ansiedade sobre cumprimento de metas
+- Entusiasmo com tecnologias que geram eficiência
+- Preocupação com reputação da empresa
+- Confiança em sua capacidade de gestão
+- Satisfação ao demonstrar resultados para stakeholders
+
+### O que ela FALA E FAZ?
+- Apresenta resultados para diretoria e clientes
+- Negocia contratos com fornecedores de tecnologia
+- Coordena reuniões multidisciplinares
+- Acompanha indicadores de performance
+- Justifica investimentos com base em ROI
+- Participa de eventos do setor para benchmarking
+- Desenvolve estratégias de otimização
+
+### DORES
+- Dificuldade em quantificar benefícios de segurança
+- Pressão por resultados imediatos vs. investimentos longos
+- Complexidade na integração de sistemas
+- Resistência interna a mudanças de processo
+- Falta de dados consolidados para decisões estratégicas
+- Tempo gasto em reuniões sem informações precisas
+- Dificuldade em comunicar valor para não-técnicos
+
+### GANHOS
+- Demonstração clara de retorno sobre investimento em segurança
+- Vantagem competitiva através de tecnologia diferenciada
+- Redução de custos operacionais com acidentes e retrabalhos
+- Melhoria da reputação da empresa no mercado
+- Agilidade na tomada de decisões estratégicas
+- Conformidade regulatória automatizada
 
 # Contexto de uso
 
