@@ -52,9 +52,9 @@ Os dados serão coletados de **usuários diretos e stakeholders secundários**.
 
 | Persona | Perfil | Foco da Coleta |
 |----------|---------|----------------|
-| **Operador de Drone** | Responsável pela captura das imagens e operação do drone. | Limitações de voo, interferências, tempo de operação e controle de qualidade das imagens. |
-| **Engenheiro de Segurança** | Analisa riscos e elabora relatórios de segurança. | Necessidades de alertas, visualização de eventos e histórico de detecções. |
-| **Supervisor de Obra** | Garante o cumprimento das normas de segurança em campo. | Preferências sobre notificações e acompanhamento de incidentes em tempo real. |
+| **Técnico de Segurança** | Responsável pela captura das imagens e operação do drone. | Limitações de voo, interferências, tempo de operação e controle de qualidade das imagens. |
+| **Gerente de Segurança** | Analisa riscos e elabora relatórios de segurança. | Necessidades de alertas, visualização de eventos e histórico de detecções. |
+| **Engenheiro e Gerente de Obra** | Garante o cumprimento das normas de segurança em campo. | Preferências sobre notificações e acompanhamento de incidentes em tempo real. |
 
 **Stakeholders secundários:**
 - Diretoria da construtora (interessada em indicadores de segurança e produtividade).  
