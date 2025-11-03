@@ -2,8 +2,7 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](http://lattes.cnpq.br/6747210702910392) e Prof. Dr. [Plino Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Uma Metodologia Baseada em Redes Neurais Profundas e videos de VANTs para Análise de Segurança em Ambientes de Canteiros de Obra na Construção Civil.** sob orientação do Professor **Gabriela Biondi** e desenvolvido pelos seguintes alunos:
-
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Geração e Utilização de Dados Sintéticos para Aplicações de Visão Computacional em Ambientes de Canteiros de Obras.** sob orientação da Professora **Gabriela Biondi** e desenvolvido pelos alunos:
 
 - Caio de Souza Conceicão RA: 22.122.033-8
 - Guilherme Couto Goms RA: 22.122.035-3
