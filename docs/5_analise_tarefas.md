@@ -9,8 +9,8 @@
 
 ## 1. Registro de Usuário
 
+<img width="943" height="594" alt="Untitled Diagram drawio (7)" src="https://github.com/user-attachments/assets/42791815-e421-4ffb-b6ce-863805b509ca" />
 
-<img width="943" height="594" alt="Untitled Diagram drawio (4)" src="https://github.com/user-attachments/assets/32821dd6-d1ae-4a28-8295-679d00fa467f" />
 
 
 | Objetivos/Operações                                | Problemas e Recomendações |
@@ -19,6 +19,7 @@
 | 1. Informar dados do usuário 1+2                   | Plano: (1.1) informar nome e e‑mail; (1.2) aceitar termos e autorizações necessárias.<br>Risco geral: campos obrigatórios pouco claros e validações tardias aumentam retrabalho.<br>Recomendação geral: validação em tempo real e mensagens objetivas junto aos campos. |
 | 1.1 Informar nome e e‑mail                         | Problema: e‑mail inválido ou já cadastrado; campo obrigatório não destacado.<br>Recomendação: validação de formato e duplicidade em tempo real; indicação visual de obrigatórios e mensagens de erro claras. |
 | 1.2 Aceitar termos e autorizações                  | Problema: usuário tenta prosseguir sem aceitar os termos.<br>Recomendação: bloquear avanço sem aceite, exibir aviso claro e link para visualizar os termos. |
+
 | 2. Confirmar cadastro e notificar o usuário        | Problema: usuário não percebe o sucesso ou não sabe o próximo passo.<br>Recomendação: mensagem de sucesso clara e persistente, resumo do cadastro e envio de e‑mail de confirmação com instruções para o primeiro acesso. |
 
 ## GOMS
@@ -53,4 +54,12 @@
       - **OP. 2.A.3:** O sistema exibe a mensagem “Cadastro concluído com sucesso”  
       - **OP. 2.A.4:** O sistema envia o e‑mail de confirmação ao usuário  
       - **OP. 2.A.5:** Usuário lê a mensagem e clica em “Acessar conta”
+
+## CTT
+
+<img width="966" height="737" alt="Untitled Diagram drawio (6)" src="https://github.com/user-attachments/assets/d21af784-1f51-4a80-af14-ceb74383fac3" />
+
+## 2. 
+
+
 
