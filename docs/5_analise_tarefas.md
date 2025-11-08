@@ -20,3 +20,35 @@
 | 1.1 Informar nome e e‑mail                         | Problema: e‑mail inválido ou já cadastrado; campo obrigatório não destacado.<br>Recomendação: validação de formato e duplicidade em tempo real; indicação visual de obrigatórios e mensagens de erro claras. |
 | 1.2 Aceitar termos e autorizações                  | Problema: usuário tenta prosseguir sem aceitar os termos.<br>Recomendação: bloquear avanço sem aceite, exibir aviso claro e link para visualizar os termos. |
 | 2. Confirmar cadastro e notificar o usuário        | Problema: usuário não percebe o sucesso ou não sabe o próximo passo.<br>Recomendação: mensagem de sucesso clara e persistente, resumo do cadastro e envio de e‑mail de confirmação com instruções para o primeiro acesso. |
+
+GOAL 0: Registrar um novo usuário  
+
+GOAL 1: Informar dados do usuário  
+METHOD 1.A: Preencher formulário de cadastro  
+(SEL. RULE: O usuário acessou a página de registro do sistema)  
+OP. 1.A.1: Deslocar o cursor para o campo “Nome”  
+OP. 1.A.2: Clicar no campo  
+OP. 1.A.3: Digitar o nome completo  
+OP. 1.A.4: Deslocar o cursor para o campo “E-mail”  
+OP. 1.A.5: Clicar no campo  
+OP. 1.A.6: Digitar o e-mail válido  
+
+GOAL 1.2: Aceitar termos e autorizações  
+METHOD 1.B: Ler e aceitar os termos de uso  
+(SEL. RULE: O usuário deve aceitar os termos antes de prosseguir para o envio do cadastro)  
+OP. 1.B.1: Rolar a tela até o final dos termos  
+OP. 1.B.2: Marcar a caixa “Li e aceito os termos”  
+OP. 1.B.3: Clicar no botão “Continuar”  
+
+GOAL 2: Confirmar cadastro e notificar o usuário  
+METHOD 2.A: Enviar e‑mail de confirmação  
+(SEL. RULE: Todos os campos obrigatórios foram preenchidos e o usuário aceitou os termos)  
+OP. 2.A.1: O sistema valida o formulário  
+OP. 2.A.2: O sistema salva os dados do novo usuário  
+OP. 2.A.3: O sistema exibe a mensagem “Cadastro concluído com sucesso”  
+OP. 2.A.4: O sistema envia o e‑mail de confirmação ao usuário  
+
+METHOD 2.B: Confirmar sucesso do registro  
+(SEL. RULE: O sistema confirma que o e‑mail foi enviado corretamente)  
+OP. 2.B.1: O usuário lê a mensagem de sucesso  
+OP. 2.B.2: O usuário clica em “Acessar conta” para entrar no sistema
