@@ -71,3 +71,36 @@
 | 1.2 Enviar imagem para o sistema                    | Problema: Formatos incompatíveis ou arquivos corrompidos podem causar falha.<br>Recomendação: Validar formatos e exibir mensagens claras. |
 | 2. Salvar o resultado                               | Plano: Salvar arquivo após detecção.<br>Problema: Usuário pode não encontrar arquivo salvo.<br>Recomendação: Mostrar caminho e opção para abrir pasta. |
 
+## GOMS 
+
+**GOAL 0:** Detectar objetos em uma imagem
+
+- **GOAL 1:** Carregar imagem para detecção  
+  - **METHOD 1.A:** Selecionar arquivo de imagem  
+    - **OP. 1.A.1:** Abrir diálogo de seleção de arquivo  
+    - **OP. 1.A.2:** Navegar até o arquivo desejado  
+    - **OP. 1.A.3:** Selecionar arquivo e confirmar  
+  - **METHOD 1.B:** Validar formato e integridade da imagem  
+    - **OP. 1.B.1:** Verificar extensão do arquivo  
+    - **OP. 1.B.2:** Verificar integridade do arquivo  
+    - **SELECTION RULE:** Se arquivo inválido, exibir mensagem de erro e solicitar novo arquivo  
+
+- **GOAL 2:** Iniciar detecção de objetos  
+  - **METHOD 2.A:** Escolher modelo de detecção  
+    - **OP. 2.A.1:** Exibir lista de modelos  
+    - **OP. 2.A.2:** Ler descrição do modelo (se necessário)  
+    - **OP. 2.A.3:** Selecionar modelo  
+  - **METHOD 2.B:** Enviar imagem para o sistema  
+    - **OP. 2.B.1:** Confirmar envio da imagem  
+    - **OP. 2.B.2:** Aguardar processamento  
+    - **SELECTION RULE:** Se falha no envio, exibir mensagem e permitir reenvio  
+
+- **GOAL 3:** Visualizar e salvar resultado  
+  - **METHOD 3.A:** Exibir objetos detectados na tela  
+    - **OP. 3.A.1:** Renderizar bounding boxes e labels  
+  - **METHOD 3.B:** Salvar resultado em arquivo  
+    - **OP. 3.B.1:** Abrir diálogo de salvar arquivo  
+    - **OP. 3.B.2:** Confirmar local e nome do arquivo  
+    - **OP. 3.B.3:** Salvar arquivo  
+    - **SELECTION RULE:** Se usuário não encontrar arquivo, mostrar caminho e opção para abrir pasta
+
