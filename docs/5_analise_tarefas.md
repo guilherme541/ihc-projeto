@@ -59,7 +59,7 @@
 
 <img width="966" height="737" alt="Untitled Diagram drawio (6)" src="https://github.com/user-attachments/assets/d21af784-1f51-4a80-af14-ceb74383fac3" />
 
-## 2. 
+## 2.Carregar uma imagem e detectar objetos
 
 
 
