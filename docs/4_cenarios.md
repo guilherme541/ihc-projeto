@@ -1,43 +1,73 @@
-# Cenário de Análise/Problema
+# Cenário de Análise / Problema
 
-## Cenário de Análise/Problema
-**Atores:** Ricardo (Gerente de Segurança do Trabalho), Fernanda (Gestora de Obra) e Paulo (Técnico de Segurança).  
+## Contexto Geral
 
-No canteiro de obras de um grande empreendimento, o Técnico de Segurança Paulo inicia mais um dia de atividades. Ele precisa monitorar o cumprimento das normas de segurança por dezenas de trabalhadores que operam em meio a guindastes, caminhões e retroescavadeiras. Enquanto registra manualmente uma ocorrência em sua prancheta, deixa de perceber que, do outro lado da obra, um operário sem capacete atravessa uma área de risco ao lado de uma retroescavadeira em funcionamento. O operador da máquina, com a visibilidade limitada por pilhas de concreto, não percebe a aproximação. A situação quase resulta em um acidente grave.  
+O cenário ocorre em um canteiro de obras de grande porte, onde diversos profissionais precisam garantir a segurança e eficiência operacional do ambiente. Atualmente, o monitoramento de segurança é realizado de forma **manual e descentralizada**, dificultando a identificação em tempo real de situações de risco.
 
-Ricardo, gerente de segurança, acompanha a rotina de seu escritório no canteiro. Ele é cobrado constantemente pela diretoria para reduzir riscos, mas depende de relatórios feitos manualmente por Paulo e outros técnicos. Esses relatórios chegam com atraso, sem padronização, dificultando a análise em tempo real dos riscos e aumentando sua preocupação com a possibilidade de multas ou paralisações. Toda vez que precisa prestar contas à diretoria, gasta horas consolidando dados em planilhas e relatórios atrasados, o que o deixa em uma posição vulnerável.  
+O problema se agrava porque as informações de campo chegam atrasadas, os relatórios não seguem um padrão único e a tomada de decisão é reativa — ou seja, as ações preventivas só ocorrem após o registro de incidentes. Esse contexto revela a necessidade de uma **solução tecnológica que integre monitoramento, análise e validação de modelos de IA** para aumentar a confiabilidade e reduzir acidentes.
 
-Enquanto isso, Fernanda, gestora de obra, participa de uma reunião remota com clientes e investidores. Ela precisa apresentar indicadores claros de segurança da obra, mas recebe relatórios pouco visuais, fragmentados e desatualizados. Sem informações confiáveis em mãos, ela teme que a credibilidade da construtora seja abalada caso aconteça um acidente grave, ou que os stakeholders questionem a capacidade da empresa de manter segurança sem comprometer o cronograma.  
+Nosso sistema propõe uma **interface de testes e validação de modelos de visão computacional**, que permite a empresas e equipes técnicas **subir modelos, testá-los com dados reais e sintéticos, comparar resultados e gerar relatórios automáticos de desempenho**. Essa solução fornece o suporte necessário para que os melhores modelos sejam selecionados antes da implantação em campo.
 
-O cenário revela um abismo de comunicação: informações de campo chegam tarde demais para Ricardo, e dados estratégicos chegam imprecisos para Fernanda. Enquanto isso, Paulo segue sobrecarregado, incapaz de monitorar todas as áreas, criando um ciclo de estresse, retrabalho e riscos não controlados que podem resultar em acidentes sérios, afastamentos e perdas financeiras para a construtora.  
+---
+
+## Atores Envolvidos
+
+- **Ricardo Santos** — Gerente de Segurança do Trabalho  
+  Responsável por supervisionar a aplicação de normas de segurança e validar modelos que garantam a integridade dos trabalhadores em campo.
+
+- **Fernanda Costa** — Engenheira e Gestora de Obra  
+  Gerencia cronogramas, recursos e indicadores de segurança, utilizando relatórios técnicos para justificar investimentos e acompanhar métricas de eficiência.
+
+- **Paulo Andrade** — Engenheiro de Machine Learning  
+  Atua no desenvolvimento e teste de modelos de visão computacional para detecção de riscos e comportamentos inseguros.
+
+---
+
+## Descrição do Problema
+
+No canteiro de obras, o **Gerente de Segurança (Ricardo)** e sua equipe enfrentam desafios diários para garantir que todos os trabalhadores utilizem Equipamentos de Proteção Individual (EPIs) e cumpram as normas de segurança. O monitoramento manual é limitado — muitas ocorrências passam despercebidas até que se tornem incidentes.
+
+Enquanto isso, o **Engenheiro de Machine Learning (Paulo)** trabalha em laboratório desenvolvendo e treinando modelos de IA para automatizar esse processo. No entanto, ele não dispõe de uma plataforma unificada para **subir, testar e comparar diferentes modelos**, o que torna a avaliação fragmentada e sujeita a erros humanos.
+
+Por fim, a **Gestora de Obra (Fernanda)** precisa de relatórios claros e confiáveis para apresentar à diretoria e aos investidores, mas os dados técnicos são complexos e de difícil interpretação. A ausência de uma interface de apoio à decisão compromete a transparência e a credibilidade da construtora.
+
+---
+
+## Falhas Identificadas
+
+1. **Monitoramento manual e fragmentado** — Falta de automação para identificação de riscos em tempo real.  
+2. **Ausência de padronização nos testes de modelos de IA** — Cada engenheiro utiliza metodologias diferentes, dificultando comparações.  
+3. **Comunicação ineficiente entre campo e laboratório** — Dificuldade em traduzir métricas técnicas em informações úteis para gestores.  
+4. **Baixa rastreabilidade dos resultados** — Relatórios não consolidados e sem histórico comparativo.  
+5. **Tomada de decisão reativa** — Falta de insights preditivos e preventivos para reduzir riscos.
+
+---
+
+## Consequências
+
+- Aumento da probabilidade de acidentes e quase-acidentes.  
+- Dificuldade em comprovar a eficácia dos modelos implantados.  
+- Desconfiança dos gestores em relação à IA por falta de evidências quantitativas.  
+- Custos elevados com retrabalho, treinamentos corretivos e auditorias.  
+- Perda de credibilidade perante órgãos fiscalizadores e investidores.
 
 ---
 
 ## Questões de Refinamento
-- Por que Ricardo precisa de relatórios rápidos e confiáveis? Qual o impacto se eles demorarem?  
-- Quais dificuldades Paulo enfrenta ao depender de registros manuais em campo?  
-- Como a limitação de visibilidade do operador de máquinas aumenta os riscos?  
-- Que informações Fernanda gostaria de ver em tempo real para justificar prazos e segurança aos clientes?  
-- Como a comunicação fragmentada entre campo e escritório atrapalha a tomada de decisão?  
-- Quais tipos de quase-acidentes deixam de ser registrados no modelo atual?  
-- Que consequências financeiras, humanas e de reputação estão em jogo quando há falhas no monitoramento?  
-- Em quais momentos críticos a ausência de dados em tempo real tem mais impacto (ex: auditorias, reuniões de diretoria, investigação de incidentes)?  
+
+- Como padronizar os testes de modelos de IA em um único ambiente confiável?  
+- Que métricas devem ser priorizadas para avaliar o desempenho dos modelos?  
+- Como traduzir os resultados técnicos em indicadores de risco compreensíveis para gestores?  
+- De que forma a interface pode facilitar o upload, execução e comparação de modelos?  
+- Quais tipos de dados (imagens reais, sintéticas ou híbridas) geram melhor desempenho em campo?  
+- Como garantir que o sistema forneça relatórios auditáveis e rastreáveis?
 
 ---
 
-## Refinamento do Cenário de Análise/Problema
-- **Ricardo** precisa de relatórios consistentes e imediatos para comprovar conformidade e evitar multas. Atrasos e falhas afetam diretamente sua credibilidade e podem expor a empresa a penalidades.  
-- **Paulo** está sobrecarregado em campo, registrando ocorrências manualmente enquanto tenta monitorar trabalhadores. Ele não consegue acompanhar todos os pontos da obra simultaneamente, o que aumenta o risco de falhas críticas.  
-- **Fernanda** precisa de indicadores claros e atualizados para justificar prazos, investimentos e segurança junto à diretoria e aos stakeholders. Relatórios fragmentados e desatualizados dificultam seu papel estratégico.  
+## Refinamento do Cenário
 
-### Falhas identificadas:
-1. Monitoramento fragmentado, manual e ineficaz em tempo real.  
-2. Quase-acidentes que não são documentados ou chegam tarde.  
-3. Relatórios com baixa qualidade, lentos e sem padronização.  
-4. Ausência de visão consolidada de segurança para tomada de decisão.  
+- **Ricardo Santos** precisa validar modelos de IA com base em evidências técnicas confiáveis, reduzindo acidentes e relatórios manuais.  
+- **Paulo Andrade** necessita de uma interface que facilite o teste e a comparação de modelos de visão computacional, permitindo visualizar métricas em tempo real.  
+- **Fernanda Costa** busca relatórios estratégicos que conectem resultados técnicos com impacto operacional e financeiro, justificando decisões de investimento.
 
-### Consequências:
-- Maior probabilidade de acidentes graves e afastamentos trabalhistas.  
-- Paralisação de obras, indenizações e multas por descumprimento das NRs.  
-- Custos crescentes com retrabalho e acidentes.  
-- Perda de credibilidade junto a clientes, investidores e órgãos reguladores.
+---
