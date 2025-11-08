@@ -63,4 +63,11 @@
 
 <img width="1080" height="561" alt="Untitled Diagram drawio (9)" src="https://github.com/user-attachments/assets/80b4a7dc-4502-442f-879d-19061c6fc5aa" />
 
+| **Objetivos/Operações**                            | **Problemas e Recomendações**                                                                                              |
+|---|---|
+| 0. Carregar uma imagem e detectar objetos 1>2     | Input: O usuário inicia a tarefa de detecção de objetos em uma imagem.<br>Feedback: Objetos detectados exibidos na tela.<br>Plano: Realizar a operação 1 e depois a 2.<br>Recomendação: Garantir feedback visual claro durante o processamento e salvar o resultado. |
+| 1. Iniciar a detecção de objetos 1+2               | Plano: Selecionar tipo de detecção, escolher modelo e carregar imagem antes de iniciar detecção.                              |
+| 1.1 Informar o modelo de detecção                   | Problema: Lista de modelos pode ser confusa para usuários iniciantes.<br>Recomendação: Incluir descrição breve para cada modelo. |
+| 1.2 Enviar imagem para o sistema                    | Problema: Formatos incompatíveis ou arquivos corrompidos podem causar falha.<br>Recomendação: Validar formatos e exibir mensagens claras. |
+| 2. Salvar o resultado                               | Plano: Salvar arquivo após detecção.<br>Problema: Usuário pode não encontrar arquivo salvo.<br>Recomendação: Mostrar caminho e opção para abrir pasta. |
 
