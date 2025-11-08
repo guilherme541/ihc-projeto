@@ -95,10 +95,8 @@
     - **OP. 2.B.2:** Aguardar processamento  
     - **SELECTION RULE:** Se falha no envio, exibir mensagem e permitir reenvio  
 
-- **GOAL 3:** Visualizar e salvar resultado  
-  - **METHOD 3.A:** Exibir objetos detectados na tela  
-    - **OP. 3.A.1:** Renderizar bounding boxes e labels  
-  - **METHOD 3.B:** Salvar resultado em arquivo  
+- **GOAL 3:** Salvar resultado  
+  - **METHOD 3.A:** Salvar resultado em arquivo  
     - **OP. 3.B.1:** Abrir diálogo de salvar arquivo  
     - **OP. 3.B.2:** Confirmar local e nome do arquivo  
     - **OP. 3.B.3:** Salvar arquivo  
