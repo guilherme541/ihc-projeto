@@ -61,5 +61,6 @@
 
 ## 2.Carregar uma imagem e detectar objetos
 
+<img width="1080" height="561" alt="Untitled Diagram drawio (9)" src="https://github.com/user-attachments/assets/80b4a7dc-4502-442f-879d-19061c6fc5aa" />
 
 
