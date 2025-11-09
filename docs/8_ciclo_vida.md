@@ -29,7 +29,7 @@
 
 ## 3. Metas de Usabilidade
 
-### **1. Qualitativo**
+### **i. Qualitativo**
 
 - **Clareza das Informações:** O sistema deve exibir as detecções e métricas de forma clara e intuitiva, utilizando cores e ícones para representar diferentes categorias de risco.  
 - **Feedback Imediato:** O usuário deve receber respostas visuais imediatas ao carregar um modelo ou iniciar uma análise.  
@@ -39,7 +39,7 @@
 
 ---
 
-### **2. Quantitativo**
+### **ii. Quantitativo**
 
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
