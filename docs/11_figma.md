@@ -1,19 +1,24 @@
 
 1. Tela de Login
 
-![WhatsApp Image 2025-11-04 at 11 54 07_3e42ccf0](https://github.com/user-attachments/assets/ab670e76-d64f-4815-bfb2-0d283f937a95)
+<img width="1916" height="904" alt="image" src="https://github.com/user-attachments/assets/47a5f1b4-744b-4ff8-a454-42e936ac8f5d" />
 
 
-2. Listagem de Detecções/Riscos (Relatório)
+2. Tela de Cadastro
 
-![WhatsApp Image 2025-11-04 at 12 05 07_a6410ab3](https://github.com/user-attachments/assets/31314352-5126-4e3e-967b-36a8c75ea5f4)
-
-
-3. Tela de configurações gerais do software
-
-![WhatsApp Image 2025-11-04 at 12 05 07_b2918863](https://github.com/user-attachments/assets/55fdef37-22e5-480f-849c-916d02864075)
+<img width="1917" height="908" alt="image" src="https://github.com/user-attachments/assets/366ef22c-bb4d-4af0-8328-237fab349205" />
 
 
-4. Tela principal com funcionalidades de detecção
+3. Listagem de Detecções (Relatório)
 
-![WhatsApp Image 2025-11-04 at 12 05 07_8e5f02f1](https://github.com/user-attachments/assets/554f8f27-ee0f-41d9-b848-3d7a3f641152)
+<img width="1915" height="906" alt="image" src="https://github.com/user-attachments/assets/74d92c23-3763-4449-90fb-ff6b43108e6e" />
+
+
+4. Analisar Imagens ou Vídeos
+
+<img width="1914" height="903" alt="image" src="https://github.com/user-attachments/assets/004864c8-ca0b-435b-a8ea-ad9445c5dba5" />
+
+
+5. Tela de configurações gerais do software
+
+<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/599617cd-998c-4e21-9290-fa81d7b8e3ff" />
