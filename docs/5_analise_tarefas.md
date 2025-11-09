@@ -101,4 +101,10 @@
     - **OP. 3.B.2:** Confirmar local e nome do arquivo  
     - **OP. 3.B.3:** Salvar arquivo  
     - **SELECTION RULE:** Se usuário não encontrar arquivo, mostrar caminho e opção para abrir pasta
+   
+## CTT
+
+<img width="736" height="716" alt="Untitled Diagram drawio (10)" src="https://github.com/user-attachments/assets/a15ef5e4-100c-46f0-ada6-ff5e6d03b6ca" />
+
+
 
