@@ -49,5 +49,4 @@
 | **Satisfação e Confiança do Usuário** | 25% | O sistema deve transmitir segurança e confiabilidade, com mensagens claras e feedback visual consistente. |
 | **Total** | **100%** | Soma das prioridades de usabilidade. |
 
----
 
