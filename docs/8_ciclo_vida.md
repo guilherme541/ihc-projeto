@@ -43,10 +43,10 @@
 
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| **Eficiência e Agilidade na Execução de Testes** | 40% | O foco é garantir que o sistema processe vídeos e imagens com velocidade e fluidez, reduzindo o tempo de análise. |
-| **Eficácia na Visualização dos Resultados** | 35% | As detecções e métricas devem ser apresentadas de forma compreensível para que o usuário possa avaliar o desempenho do modelo rapidamente. |
-| **Facilidade de Aprendizado e Uso** | 15% | A interface deve ser intuitiva, permitindo que usuários com pouca experiência técnica consigam operar o sistema. |
-| **Satisfação e Confiança do Usuário** | 10% | O sistema deve transmitir segurança e confiabilidade, com mensagens claras e feedback visual consistente. |
+| **Eficiência e Agilidade na Execução de Testes** | 25% | O foco é garantir que o sistema processe vídeos e imagens com velocidade e fluidez, reduzindo o tempo de análise. |
+| **Eficácia na Visualização dos Resultados** | 25% | As detecções e métricas devem ser apresentadas de forma compreensível para que o usuário possa avaliar o desempenho do modelo rapidamente. |
+| **Facilidade de Aprendizado e Uso** | 25% | A interface deve ser intuitiva, permitindo que usuários com pouca experiência técnica consigam operar o sistema. |
+| **Satisfação e Confiança do Usuário** | 25% | O sistema deve transmitir segurança e confiabilidade, com mensagens claras e feedback visual consistente. |
 | **Total** | **100%** | Soma das prioridades de usabilidade. |
 
 ---
