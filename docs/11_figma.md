@@ -11,7 +11,7 @@
 
 3. Listagem de Detecções (Relatório)
 
-<img width="1915" height="906" alt="image" src="https://github.com/user-attachments/assets/74d92c23-3763-4449-90fb-ff6b43108e6e" />
+<img width="1915" height="906" alt="image" src="https://github.com/user-attachments/assets/4b65b9b2-e1bc-4b48-98d1-d82910680253" />
 
 
 4. Analisar Imagens ou Vídeos
