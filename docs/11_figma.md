@@ -16,7 +16,7 @@
 
 4. Analisar Imagens ou Vídeos
 
-<img width="1914" height="903" alt="image" src="https://github.com/user-attachments/assets/004864c8-ca0b-435b-a8ea-ad9445c5dba5" />
+<img width="1914" height="903" alt="image" src="https://github.com/user-attachments/assets/cd96c754-d4dc-4b12-88b5-76bdb7a5404b" />
 
 
 5. Tela de configurações gerais do software
