@@ -21,4 +21,4 @@
 
 5. Tela de configurações gerais do software
 
-<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/599617cd-998c-4e21-9290-fa81d7b8e3ff" />
+<img width="1917" height="905" alt="image" src="https://github.com/user-attachments/assets/c64057ac-48b2-4adf-aed5-ecce4473331e" />
