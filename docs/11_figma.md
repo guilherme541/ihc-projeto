@@ -1,7 +1,7 @@
 
 1. Tela de Login
 
-<img width="1916" height="904" alt="image" src="https://github.com/user-attachments/assets/47a5f1b4-744b-4ff8-a454-42e936ac8f5d" />
+<img width="1916" height="904" alt="image" src="https://github.com/user-attachments/assets/39d1016c-ff43-46d5-b6d0-9c1e23f70c48" />
 
 
 2. Tela de Cadastro
