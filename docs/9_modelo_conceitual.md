@@ -107,7 +107,7 @@ O objetivo central é permitir que as empresas desenvolvedoras testem e escolham
 | nome_modelo | domínio | Nome do modelo carregado. | texto | não pode ser nulo | — | **PP:** campo obrigatório |
 | versao | domínio | Versão do modelo. | texto | — | — | — |
 | tipo_treinamento | domínio | Define se o modelo foi treinado com imagens reais, sintéticas ou mistas. | seleção simples | {Reais, Sintéticas, Reais+Sintéticas} | — | **PA:** validação automática |
-| limite_confianca | aplicação | Valor mínimo de confiança definido pelo usuário. | número | ≥ 0 e ≤ 1 | 0.5 | **PA:** ajuste automático |
+| limite_confianca | aplicação | Valor mínimo de confiança definido pelo usuário. | número | ≥ 0 e ≤ 1 | 0.5 | **PA:** ajuste manual |
 
 ---
 
@@ -118,4 +118,16 @@ O objetivo central é permitir que as empresas desenvolvedoras testem e escolham
 | data_execucao | domínio | Data em que o teste foi executado. | data | não pode ser nula | data atual | **PP+PA:** seletor automático |
 | modelo_utilizado | domínio | Nome do modelo testado. | texto | não pode ser nulo | — | **PP:** campo obrigatório |
 | metrica_principal | aplicação | Métrica de desempenho principal (ex: mAP). | número | ≥ 0 e ≤ 100 | — | **PA:** preenchido automaticamente |
-| arquivo_relatorio | aplicação | Caminho do arquivo PDF exportado. | texto | — | — | **RA:** reexportar em caso de falha |
+| arquivo_relatorio | aplicação | Caminho do arquivo CSV exportado. | texto | — | — | **RA:** reexportar em caso de falha |
+
+| Análise (AN) - Execução e Avaliação de Modelos |            |                                                              |                      |                                    |                        |                                      |
+| :--------------------------------------------- | :--------- | :----------------------------------------------------------- | :------------------- | :--------------------------------- | :--------------------- | :----------------------------------- |
+| **signo**                                      | **origem** | **observações**                                              | **Tipo de conteúdo** | **restrição sobre conteúdo**       | **valor default**      | **prevenção / recuperação**          |
+| + id_analise                                   | aplicação  | Identificador único da análise executada.                    | texto                | não pode ser nulo, único           | gerado automaticamente | N/A                                  |
+| dataset                                        | domínio    | Arquivo de imagem ou vídeo enviado para análise.             | arquivo              | formatos aceitos: .jpg, .png, .mp4 | —                      | **PA:** validação de tipo de arquivo |
+| tempo_execucao                                 | aplicação  | Tempo total gasto na análise.                                | float                | ≥ 0                                | —                      | **PA:** calculado automaticamente    |
+| status                                         | aplicação  | Estado atual do processo de análise.                         | texto                | {Analisando..., Concluída, Erro}   | Analisando...          | **PA:** atualizado dinamicamente     |
+| resultados                                     | aplicação  | Gráfico mostrando as métricas obtidas                        | texto                | —                                  | —                      | **PA:** preenchido após conclusão    |
+| metricas_filtradas                             | domínio    | Ordenação por métricas.                                      | seleção múltipla     | {Ordenar por Confiança, Ordenar por desempenho}| Ordenar por Confiança | **PA:** filtragem por seleção        |
+| exportavel                                     | aplicação  | Define se os resultados podem ser exportados.                | booleano             | {Sim, Não}                         | Sim                    | **RA:** botão “Exportar Relatório”   |
+
