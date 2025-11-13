@@ -129,5 +129,4 @@ O objetivo central é permitir que as empresas desenvolvedoras testem e escolham
 | status                                         | aplicação  | Estado atual do processo de análise.                         | texto                | {Analisando..., Concluída, Erro}   | Analisando...          | **PA:** atualizado dinamicamente     |
 | resultados                                     | aplicação  | Gráfico mostrando as métricas obtidas                        | texto                | —                                  | —                      | **PA:** preenchido após conclusão    |
 | metricas_filtradas                             | domínio    | Ordenação por métricas.                                      | seleção múltipla     | {Ordenar por Confiança, Ordenar por desempenho}| Ordenar por Confiança | **PA:** filtragem por seleção        |
-| exportavel                                     | aplicação  | Define se os resultados podem ser exportados.                | booleano             | {Sim, Não}                         | Sim                    | **RA:** botão “Exportar Relatório”   |
 
