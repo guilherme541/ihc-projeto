@@ -55,6 +55,7 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 ## Nome do Cenário: Análise de Modelos (João)
 
 | tópico > subtópico (diálogo) | falas e signos |
+| :---- | :---- |
 | Acessar Análise | U: Quero realizar a análise de uma imagem ou vídeo a partir do modelo selecionado. |
 | Fazer upload do arquivo | U: Seleciona arquivo de vídeo ou imagem. |
 | > Iniciar Análise | D: Analisando... Isso pode levar alguns instantes. |
@@ -66,6 +67,7 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 
 | tópico > subtópico (diálogo) | falas e signos |
 | :---- | :---- |
+| Configurar o modelo | U: Desejo subir um modelo novo ou utilizar algum existente. |
 | Selecionar hardware | U: Utilizar GPU para acelerar o teste. |
 | > Escolher modelo | D: Modelo YOLOv8 selecionado. |
 | > Definir limite de confiança | U: Ajustar limite de confiança para 0.85. <br> D: Configuração salva com sucesso. |
