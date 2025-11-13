@@ -68,8 +68,9 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 | tópico > subtópico (diálogo) | falas e signos |
 | :---- | :---- |
 | Configurar o modelo | U: Desejo subir um modelo novo ou utilizar algum existente. |
-| Selecionar hardware | U: Utilizar GPU para acelerar o teste. |
-| > Escolher modelo | D: Modelo YOLOv8 selecionado. |
+| > Escolher modelo | D: Modelo YOLOv8 carregado ou selecionado. |
+| Selecionar hardware | U: Desejo utilizar GPU para acelerar os testes. |
+| Limite de confiança | U: Desejo definir os limites de confiança para os testes. |
 | > Definir limite de confiança | U: Ajustar limite de confiança para 0.85. <br> D: Configuração salva com sucesso. |
 
 ---
@@ -82,7 +83,7 @@ O mapa de objetivos demonstra como as funcionalidades da interface se alinham co
 - **Fernanda (Engenheira de Obra):** Testar e comparar modelos em diferentes contextos visuais, filtrando resultados conforme métricas de desempenho.  
 - **João (Técnico de Segurança):** Configurar corretamente o ambiente de análise, garantindo eficiência e estabilidade nos testes.  
 
-O objetivo central é **permitir que as empresas desenvolvedoras testem e escolham o melhor modelo de detecção para ambientes de obra**, promovendo precisão, eficiência e confiabilidade nos resultados.
+O objetivo central é permitir que as empresas desenvolvedoras testem e escolham o melhor modelo de detecção para ambientes de obra, promovendo precisão, eficiência e confiabilidade nos resultados.
 
 ---
 
