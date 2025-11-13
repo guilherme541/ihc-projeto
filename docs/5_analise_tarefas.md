@@ -106,5 +106,8 @@
 
 <img width="736" height="716" alt="Untitled Diagram drawio (10)" src="https://github.com/user-attachments/assets/a15ef5e4-100c-46f0-ada6-ff5e6d03b6ca" />
 
+## 3. Gerar Relátorio de Detecção
+<img width="2307" height="654" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/67bf42e8-268a-4066-b62b-6b4699025779" />
+
 
 
