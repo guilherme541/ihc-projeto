@@ -77,13 +77,7 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 
 # 3) Mapa de Objetivos
 
-**Descrição:**  
-O mapa de objetivos demonstra como as funcionalidades da interface se alinham com as metas de cada persona:  
-- **Ricardo (Gerente de Segurança):** Avaliar o desempenho dos modelos e exportar relatórios consolidados para apoio na decisão estratégica.  
-- **Fernanda (Engenheira de Obra):** Testar e comparar modelos em diferentes contextos visuais, filtrando resultados conforme métricas de desempenho.  
-- **João (Técnico de Segurança):** Configurar corretamente o ambiente de análise, garantindo eficiência e estabilidade nos testes.  
 
-O objetivo central é permitir que as empresas desenvolvedoras testem e escolham o melhor modelo de detecção para ambientes de obra, promovendo precisão, eficiência e confiabilidade nos resultados.
 
 ---
 
