@@ -16,3 +16,8 @@
 
 <img width="476" height="472" alt="image" src="https://github.com/user-attachments/assets/9cf6de2b-bcfd-4efe-8851-bbc565b4cdd3" />
 
+## 5. Sair
+
+<img width="340" height="391" alt="image" src="https://github.com/user-attachments/assets/ccbc456f-1b0c-4f5a-95e0-02909ea3bd8d" />
+
+
