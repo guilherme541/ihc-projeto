@@ -66,7 +66,7 @@ Esta avaliação heurística foi realizada com base nas **10 Heurísticas de Usa
 ### Heurística 6 – Reconhecimento em Lugar de Lembrança
 
 <p align="center">
-  <img width="1392" height="659" alt="image" src="https://github.com/user-attachments/assets/8e8114d3-618c-4a7c-a799-99c0e8cece88" />
+  <img width="1268" height="600" alt="image" src="https://github.com/user-attachments/assets/28693e19-f2d4-469a-a3e0-c621c1c89e1c" />
 </p>
 
 **Problema:** Dificuldade em identificar relatórios sem preview visual  
@@ -84,7 +84,7 @@ Esta avaliação heurística foi realizada com base nas **10 Heurísticas de Usa
 ### Heurística 7 – Flexibilidade e Eficiência de Uso
 
 <p align="center">
-  <img width="1393" height="661" alt="image" src="https://github.com/user-attachments/assets/42d935f9-43da-4ede-acaf-432fa242aad6" />
+  <img width="1268" height="600" alt="image" src="https://github.com/user-attachments/assets/1d014def-c7b2-4db7-bf3e-63886b156f9a" />
 </p>
 
 **Problema:** Ausência de filtros avançados 
