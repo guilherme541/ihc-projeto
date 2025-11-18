@@ -1,8 +1,8 @@
 # 1) Cenários de Interação
 
-## Cenário de Interação A: Painel de Resultados (Ricardo Santos)
+## Cenário de Interação A: Painel de Resultados
 
-**Atores:** Ricardo Santos (Gerente de Segurança) e Fernanda Costa (Engenheira e Gestora de Obra)
+**Atores:** Ricardo Santos e Fernanda Costa
 
 Ricardo precisa avaliar o desempenho dos modelos de detecção utilizados pela empresa.  
 Ele acessa o Painel de Resultados, onde visualiza dashboards com informações sobre o modelo utilizado, tempo de processamento, precisão e a distribuição de classes detectadas para o modelo selecionado.  
@@ -13,9 +13,9 @@ Essa funcionalidade facilita a comunicação entre os setores e otimiza o proces
 
 ---
 
-## Cenário de Interação B: Análise de Modelos (Fernanda Costa)
+## Cenário de Interação B: Análise de Modelos
 
-**Atores:** Paulo Andrade (Técnico de Segurança)
+**Atores:** Paulo Andrade
 
 Paulo deseja testar um novo modelo de detecção treinado recentemente.  
 Ele acessa a tela de Análise, faz o upload do arquivo do modelo e clica em “Iniciar Testes”. 
@@ -26,9 +26,9 @@ Assim, ele consegue utilizar um filtro para ordenar as métricas obtidas a parti
 
 ---
 
-## Cenário de Interação C: Configurações do Modelo (Paulo Andrade)
+## Cenário de Interação C: Configurações do Modelo
 
-**Atores:** Paulo Andrade (Técnico de Segurança)
+**Atores:** Paulo Andrade
 
 Paulo é responsável por preparar o ambiente de teste dos modelos.  
 Na tela de Configurações do Modelo, ele consegue subir os modelos **.pt**, ou utilizar os que já estão na interface, e escolher se deseja utilizar a placa gráfica para acelerar o processamento e seleciona qual modelo será testado na próxima análise.  
