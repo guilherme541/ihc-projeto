@@ -1,23 +1,3 @@
-1) **Planejamento de Usabilidade (método DECIDE)**
-
-| D |  |
-| :---: | :---- |
-| **E** |   |
-| **C** |  |
-| **I** |  |
-| **D** |  |
-| **E** | A análise e produção dos resultados precisam considerar vários aspectos… |
-
-2) Lista de Instrumentos  
-   1) Termo de consentimento  
-   2) Questionários  
-   3) Tabela de Observação  
-   4) Formulário de avaliação Heuristica.
-  
-
-
-
-
 |                                                Letra | Planejamento                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ---------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |         **D – Determinar os objetivos da avaliação** | Avaliar se a interface permite que o Engenheiro de Machine Learning, o Gerente de Segurança e a Gestora de Projetos consigam realizar suas tarefas principais: gerar análises, interpretar resultados, comparar modelos, configurar parâmetros e exportar relatórios. Verificar facilidade de uso, clareza das métricas e efetividade da comunicação entre análises técnicas e entendimento operacional/estratégico.                                                                                                                 |
@@ -26,3 +6,6 @@
 |                         **I – Identificar usuários** | Usuários representados pelas três personas:<br> - **Paulo Andrade (Primária)** – Engenheiro de Machine Learning, principal usuário das análises e dashboards.<br> - **Ricardo Santos (Secundária)** – Gerente de Segurança, focado em interpretar relatórios e validar confiabilidade.<br> - **Fernanda Costa (Terciária)** – Gestora de Projetos, usuária esporádica de relatórios executivos.                                                                                                                                      |
 |              **D – Decidir sobre questões práticas** | - Número de participantes: 3 a 5 representando diferentes perfis.<br> - Ambiente: teste em laboratório ou remoto com compartilhamento de tela.<br> - Tempo por sessão: 30–45 minutos.<br> - Tarefas: realizar upload de arquivo, configurar modelo, iniciar análise, filtrar métricas, interpretar dashboards e exportar relatório.<br> - Gravação: opcional, mediante consentimento.                                                                                                                                                |
 | **E – Avaliar, interpretar e apresentar resultados** | A análise irá identificar problemas de clareza, dificuldade em encontrar funções importantes (como exportar relatório), ou confusão na interpretação das métricas. Os resultados serão organizados em relatórios contendo: lista de problemas, severidade, recomendações e pontos de melhoria relacionados ao fluxo das três telas principais (Análise, Painel de Resultados e Configurações do Modelo).                                                                                                                             |
+
+
+
