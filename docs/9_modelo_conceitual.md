@@ -15,26 +15,26 @@ Essa funcionalidade facilita a comunicação entre os setores e otimiza o proces
 
 ## Cenário de Interação B: Análise de Modelos (Fernanda Costa)
 
-**Atores:** João (Técnico de Segurança)
+**Atores:** Paulo Andrade (Técnico de Segurança)
 
-João deseja testar um novo modelo de detecção treinado recentemente.  
+Paulo deseja testar um novo modelo de detecção treinado recentemente.  
 Ele acessa a tela de Análise, faz o upload do arquivo do modelo e clica em “Iniciar Testes”. 
 O sistema processa o modelo configurado para detectar vídeos ou imagens e, ao final, apresenta as métricas obtidas.
 
-Após a execução, João utiliza o filtro por métricas para visualizar apenas os modelos que superaram o limiar de confiança definido anteriormente. 
+Após a execução, Paulo utiliza o filtro por métricas para visualizar apenas os modelos que superaram o limiar de confiança definido anteriormente. 
 Assim, ele consegue utilizar um filtro para ordenar as métricas obtidas a partir da análise do modelo configurado, conseguindo, em tempo real, analisar o desempenho do modelo sendo testado em diversos contextos diferentes.
 
 ---
 
-## Cenário de Interação C: Configurações do Modelo (João)
+## Cenário de Interação C: Configurações do Modelo (Paulo Andrade)
 
-**Atores:** João (Técnico de Segurança)
+**Atores:** Paulo Andrade (Técnico de Segurança)
 
-João é responsável por preparar o ambiente de teste dos modelos.  
+Paulo é responsável por preparar o ambiente de teste dos modelos.  
 Na tela de Configurações do Modelo, ele consegue subir os modelos **.pt**, ou utilizar os que já estão na interface, e escolher se deseja utilizar a placa gráfica para acelerar o processamento e seleciona qual modelo será testado na próxima análise.  
 Ele também define o limite de confiança mínimo para as detecções.
 
-Após salvar as configurações, João inicia a execução do modelo na tela de Análise.  
+Após salvar as configurações, Paulo inicia a execução do modelo na tela de Análise.  
 Essas opções permitem um controle técnico refinado e garantem que os testes sejam executados conforme a capacidade dos equipamentos disponíveis.
 
 ---
@@ -52,7 +52,7 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 
 ---
 
-## Nome do Cenário: Análise de Modelos (João)
+## Nome do Cenário: Análise de Modelos (Paulo Andrade)
 
 | tópico > subtópico (diálogo) | falas e signos |
 | :---- | :---- |
@@ -63,7 +63,7 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 
 ---
 
-## Nome do Cenário: Configurações do Modelo (João)
+## Nome do Cenário: Configurações do Modelo (Paulo Andrade)
 
 | tópico > subtópico (diálogo) | falas e signos |
 | :---- | :---- |
