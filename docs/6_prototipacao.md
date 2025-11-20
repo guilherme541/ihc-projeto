@@ -5,9 +5,13 @@
 
 # Tela de Cadastro
 
+![Scan_20251120 (2)](https://github.com/user-attachments/assets/922c89d4-415d-442f-b0aa-8e6d50f7da7c)
+
+
 # Pagina Principal 
 
 # Pagina de Analise de Imagens ou Vídeos
 
 # Pagina de Exportar Resultados
+
 
