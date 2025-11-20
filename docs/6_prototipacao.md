@@ -10,8 +10,12 @@
 
 # Pagina Principal 
 
+![Scan_20251120 (3)](https://github.com/user-attachments/assets/e04212b3-32b5-4338-b34c-cfeea746dd3e)
+
+
 # Pagina de Analise de Imagens ou Vídeos
 
 # Pagina de Exportar Resultados
+
 
 
