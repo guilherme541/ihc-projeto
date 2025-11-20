@@ -17,9 +17,13 @@
 ![Scan_20251120 (4)](https://github.com/user-attachments/assets/d160a8bc-536b-4286-b1d8-0d21632f5f5e)
 
 
-# Pagina de Analise de Imagens ou Vídeos
+# Configuração
+
+![Scan_20251120 (5)](https://github.com/user-attachments/assets/0cede965-684e-47fe-ae64-0ed1b01844a6)
+
 
 # Pagina de Exportar Resultados
+
 
 
 
