@@ -76,9 +76,7 @@ Essas opções permitem um controle técnico refinado e garantem que os testes s
 ---
 
 # 3) Mapa de Objetivos
-
-
-
+![MapadeObjetivos](https://github.com/user-attachments/assets/5280f07d-768b-43b9-b9cc-cdd1fecd0db8)
 ---
 
 # 4) Esquema Conceitual de Signos
