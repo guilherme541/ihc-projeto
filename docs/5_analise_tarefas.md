@@ -124,6 +124,43 @@
 | 2.2 Visualizar Prévia dos dados | |
 | **3. Exportar Dados** | |
 
+## GOMS
+
+- **GOAL 0:** Exportar Relatório de Detecção  
+
+  - **GOAL 1:** Definir dados do relatório  
+    - **METHOD 1.A:** Preencher filtros do relatório  
+      - (SEL. RULE: O usuário acessa a tela de geração de relatórios de detecção)  
+      - **OP. 1.A.1:** Clicar no campo "Modelo"  
+      - **OP. 1.A.2:** Selecionar o modelo desejado na lista  
+      - **OP. 1.A.3:** Clicar no campo de "Data inicial"  
+      - **OP. 1.A.4:** Escolher a data inicial no calendário  
+      - **OP. 1.A.5:** Clicar no campo de "Data final"  
+      - **OP. 1.A.6:** Escolher a data final no calendário  
+      - **OP. 1.A.7:** Examinar a lista de tipos de classes disponíveis  
+      - **OP. 1.A.8:** Marcar/desmarcar as classes desejadas  
+      - **OP. 1.A.9:** Clicar em "Aplicar filtros"  
+
+  - **GOAL 2:** Exportar Relatório  
+    - **METHOD 2.A:** Configurar saída e visualizar prévia  
+      - (SEL. RULE: Os filtros de modelo, período e classes já foram definidos)  
+      - **OP. 2.A.1:** Clicar no campo "Formato de saída"  
+      - **OP. 2.A.2:** Selecionar o formato desejado (por exemplo, "Tabela na tela", "PDF" ou "CSV")  
+      - **OP. 2.A.3:** Clicar no botão "Gerar" / "Visualizar"  
+      - **OP. 2.A.4:** Analisar a prévia dos dados apresentada  
+      - **OP. 2.A.5:** Verificar se o conteúdo está de acordo com o esperado  
+      - **OP. 2.A.6:** Caso a prévia não esteja correta, retornar ao **GOAL 1** para ajustar filtros  
+
+  - **GOAL 3:** Exportar dados  
+    - **METHOD 3.A:** Exportar o relatório gerado  
+      - (SEL. RULE: A prévia do relatório foi validada pelo usuário)  
+      - **OP. 3.A.1:** Clicar no botão "Exportar"  
+      - **OP. 3.A.2:** Selecionar o formato de exportação (CSV, XLSX, PDF, etc.)  
+      - **OP. 3.A.3:** Escolher o local de salvamento do arquivo  
+      - **OP. 3.A.4:** Confirmar a ação de exportar  
+      - **OP. 3.A.5:** Aguardar a conclusão da exportação e verificar se o arquivo foi criado corretamente
+
+
 ## 4. Configuração do Modelo
 
 
