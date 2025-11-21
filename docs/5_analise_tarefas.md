@@ -109,6 +109,18 @@
 ## 3. Gerar Relátorio de Detecção
 <img width="2307" height="654" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/67bf42e8-268a-4066-b62b-6b4699025779" />
 
+| Objetivos/Operações | Problemas e Recomendações |
+|:-------------------|:--------------------------|
+| **0. Gerar Relatório de Detecção 1>2>3** | **Input:** dados do relatório, modelos, períodos e classes<br>**Feedback:** relatório gerado e exportado com sucesso<br>**Plano:** definir dados do relatório, depois gerar relatório e depois exportar dados |
+| **1. Definir dados do relatório 1+2+3** | **Plano:** selecionar o modelo, selecionar o período e selecionar o tipo de classes em paralelo |
+| 1.1 Selecionar o Modelo | |
+| 1.2 Selecionar o Período | |
+| 1.3 Selecionar o tipo de classes | |
+| **2. Gerar Relatório 1+2** | **Plano:** selecionar o formato de saída e visualizar prévia dos dados simultaneamente |
+| 2.1 Selecionar o formato de saída | |
+| 2.2 Visualizar Prévia dos dados | |
+| **3. Exportar Dados** | |
+
 ## 4. Configuração do Modelo
 
 
