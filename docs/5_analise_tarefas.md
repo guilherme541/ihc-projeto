@@ -165,6 +165,8 @@
 
 
 ## 4. Configuração do Modelo
+![Untitled Diagram (2)](https://github.com/user-attachments/assets/d9092d4f-adf3-466d-9a78-7e4a4bcf076d)
+
 
 
 
