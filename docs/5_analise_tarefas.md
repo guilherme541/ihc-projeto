@@ -167,6 +167,14 @@
 ## 4. Configuração do Modelo
 ![Untitled Diagram (2)](https://github.com/user-attachments/assets/d9092d4f-adf3-466d-9a78-7e4a4bcf076d)
 
+| Objetivos/Operações | Problemas e Recomendações |
+|:--------------------|:--------------------------|
+| **0. Configurar o Modelo 1>2>3** | **Input:** tela de configuração de modelo, com campos de processamento, seleção de modelo e opção de salvar.<br>**Feedback:** configuração salva e aplicada ao sistema/modelo.<br>**Plano:** primeiro definir informação sobre processamento, depois selecionar o modelo e por fim salvar a configuração. |
+| **1. Definir informação sobre processamento 1/2** | **Plano:** o usuário pode informar apenas CPU, apenas GPU ou ambas, conforme o ambiente de execução. |
+| 1.1 Informar CPU | *Possível problema:* campo técnico demais para usuários leigos (número de núcleos, threads, etc.).<br>*Recomendação:* oferecer ajuda contextual (ícones de ajuda, exemplos de preenchimento ou valores padrão sugeridos). |
+| 1.2 Informar GPU | *Possível problema:* usuário pode não saber o modelo ou memória da GPU disponível.<br>*Recomendação:* permitir detecção automática do hardware ou exibir uma lista das GPUs detectadas para seleção. |
+| **2. Selecionar o modelo** | *Recomendações:* permitir busca por nome, filtros (desempenho) e descrição resumida de cada modelo. |
+| **3. Salvar configuração** | *Possíveis problemas:* usuário não tem certeza se as alterações foram realmente aplicadas ou se substituirão uma configuração anterior.<br>*Recomendações:* exibir mensagem de confirmação (“Configuração salva com sucesso”), indicar qual configuração está ativa no momento e oferecer opção de salvar como novo perfil sem sobrescrever os anteriores. |
 
 
 
