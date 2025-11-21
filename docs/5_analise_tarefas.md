@@ -176,5 +176,35 @@
 | **2. Selecionar o modelo** | *Recomendações:* permitir busca por nome, filtros (desempenho) e descrição resumida de cada modelo. |
 | **3. Salvar configuração** | *Possíveis problemas:* usuário não tem certeza se as alterações foram realmente aplicadas ou se substituirão uma configuração anterior.<br>*Recomendações:* exibir mensagem de confirmação (“Configuração salva com sucesso”), indicar qual configuração está ativa no momento e oferecer opção de salvar como novo perfil sem sobrescrever os anteriores. |
 
+## GOMS 
+
+- **GOAL 0:** Configurar o modelo  
+
+  - **GOAL 1:** Definir informação sobre processamento  
+    - **METHOD 1.A:** Informar CPU e/ou GPU na tela de configuração  
+      - (SEL. RULE: O usuário está na tela de “Configuração do modelo”)  
+      - **OP. 1.A.1:** Clicar na aba ou seção “Processamento”  
+      - **OP. 1.A.2:** Clicar no campo “CPU”  
+      - **OP. 1.A.3:** Digitar ou selecionar as informações de CPU (ex.: número de núcleos, limite de uso, etc.)  
+      - **OP. 1.A.4:** Clicar no campo “GPU”  
+      - **OP. 1.A.5:** Selecionar a GPU desejada em uma lista ou informar o modelo/memória  
+      - **OP. 1.A.6:** Verificar se as informações de CPU e GPU estão corretas  
+
+  - **GOAL 2:** Selecionar o modelo  
+    - **METHOD 2.A:** Escolher o modelo na lista de modelos disponíveis  
+      - (SEL. RULE: As informações de processamento já foram definidas ou mantidas como padrão)  
+      - **OP. 2.A.1:** Clicar na aba ou seção “Modelo” (caso seja separada)  
+      - **OP. 2.A.2:** Clicar no campo “Modelo”  
+      - **OP. 2.A.3:** Rolar a lista de modelos ou usar o campo de busca  
+      - **OP. 2.A.4:** Ler o nome/descrição do modelo desejado  
+      - **OP. 2.A.5:** Clicar no modelo escolhido para selecioná‑lo  
+
+  - **GOAL 3:** Salvar configuração  
+    - **METHOD 3.A:** Salvar e aplicar a configuração do modelo  
+      - (SEL. RULE: CPU/GPU e modelo já foram definidos e o usuário deseja usar essa configuração)  
+      - **OP. 3.A.1:** Clicar no botão “Salvar configuração”  
+      - **OP. 3.A.2:** Caso haja diálogo de confirmação, clicar em “Confirmar” / “OK”  
+      - **OP. 3.A.3:** Aguardar o sistema processar e exibir mensagem de sucesso  
+      - **OP. 3.A.4:** Verificar na interface se a configuração atual exibida corresponde ao modelo e recursos informados
 
 
