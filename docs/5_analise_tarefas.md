@@ -207,4 +207,8 @@
       - **OP. 3.A.3:** Aguardar o sistema processar e exibir mensagem de sucesso  
       - **OP. 3.A.4:** Verificar na interface se a configuração atual exibida corresponde ao modelo e recursos informados
 
+## CTT
+
+<img width="966" height="737" alt="Untitled Diagram drawio (13)" src="https://github.com/user-attachments/assets/f06a8b85-bf09-4724-a63d-2fc860efd0e6" />
+
 
