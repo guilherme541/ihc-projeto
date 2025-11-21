@@ -59,13 +59,14 @@
 
 <img width="966" height="737" alt="Untitled Diagram drawio (6)" src="https://github.com/user-attachments/assets/d21af784-1f51-4a80-af14-ceb74383fac3" />
 
-## 2.Carregar uma imagem e detectar objetos
+## 2.Carregar arquivo e detectar objetos
 
-<img width="1080" height="561" alt="Untitled Diagram drawio (9)" src="https://github.com/user-attachments/assets/80b4a7dc-4502-442f-879d-19061c6fc5aa" />
+<img width="1080" height="561" alt="Untitled Diagram drawio (11)" src="https://github.com/user-attachments/assets/ad1e1b57-49e8-4c79-9c20-554fbb4b3e62" />
+
 
 | **Objetivos/Operações**                            | **Problemas e Recomendações**                                                                                              |
 |---|---|
-| 0. Carregar uma imagem e detectar objetos 1>2     | Input: O usuário inicia a tarefa de detecção de objetos em uma imagem.<br>Feedback: Objetos detectados exibidos na tela.<br>Plano: Realizar a operação 1 e depois a 2.<br>Recomendação: Garantir feedback visual claro durante o processamento e salvar o resultado. |
+| 0. Carregar arquivo e detectar objetos 1>2     | Input: O usuário inicia a tarefa de detecção de objetos em um arquivo.<br>Feedback: Objetos detectados exibidos na tela.<br>Plano: Realizar a operação 1 e depois a 2.<br>Recomendação: Garantir feedback visual claro durante o processamento e salvar o resultado. |
 | 1. Iniciar a detecção de objetos 1+2               | Plano: Selecionar tipo de detecção, escolher modelo e carregar imagem antes de iniciar detecção.                              |
 | 1.1 Informar o modelo de detecção                   | Problema: Lista de modelos pode ser confusa para usuários iniciantes.<br>Recomendação: Incluir descrição breve para cada modelo. |
 | 1.2 Enviar imagem para o sistema                    | Problema: Formatos incompatíveis ou arquivos corrompidos podem causar falha.<br>Recomendação: Validar formatos e exibir mensagens claras. |
@@ -73,15 +74,15 @@
 
 ## GOMS 
 
-**GOAL 0:** Detectar objetos em uma imagem
+**GOAL 0:** Detectar objetos em um arquivo
 
-- **GOAL 1:** Carregar imagem para detecção  
+- **GOAL 1:** Carregar arquivo para detecção  
   - **METHOD 1.A:** Selecionar arquivo de imagem  
     - **OP. 1.A.1:** Abrir diálogo de seleção de arquivo  
     - **OP. 1.A.2:** Navegar até o arquivo desejado  
     - **OP. 1.A.3:** Selecionar arquivo e confirmar  
-  - **METHOD 1.B:** Validar formato e integridade da imagem  
-    - **OP. 1.B.1:** Verificar extensão do arquivo  
+  - **METHOD 1.B:** Validar formato e integridade do arquivo  
+    - **OP. 1.B.1:** Verificar extensão do arquivo (imagem e video) 
     - **OP. 1.B.2:** Verificar integridade do arquivo  
     - **SELECTION RULE:** Se arquivo inválido, exibir mensagem de erro e solicitar novo arquivo  
 
@@ -103,20 +104,22 @@
     - **SELECTION RULE:** Se usuário não encontrar arquivo, mostrar caminho e opção para abrir pasta
    
 ## CTT
+![Untitled Diagram](https://github.com/user-attachments/assets/7fb615fd-42a6-4227-acce-54a06f71e8e0)
 
-<img width="736" height="716" alt="Untitled Diagram drawio (10)" src="https://github.com/user-attachments/assets/a15ef5e4-100c-46f0-ada6-ff5e6d03b6ca" />
 
-## 3. Gerar Relátorio de Detecção
-<img width="2307" height="654" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/67bf42e8-268a-4066-b62b-6b4699025779" />
+## 3. Exportar Relátorio de Detecção
+
+<img width="2137" height="654" alt="Untitled Diagram drawio (12)" src="https://github.com/user-attachments/assets/94ac99f5-54f7-43e1-9b63-a632ed2b4c71" />
+
 
 | Objetivos/Operações | Problemas e Recomendações |
 |:-------------------|:--------------------------|
-| **0. Gerar Relatório de Detecção 1>2>3** | **Input:** dados do relatório, modelos, períodos e classes<br>**Feedback:** relatório gerado e exportado com sucesso<br>**Plano:** definir dados do relatório, depois gerar relatório e depois exportar dados |
+| **0. Exportar Relatório de Detecção 1>2>3** | **Input:** dados do relatório, modelos, períodos e classes<br>**Feedback:** relatório gerado e exportado com sucesso<br>**Plano:** definir dados do relatório, depois gerar relatório e depois exportar dados |
 | **1. Definir dados do relatório 1+2+3** | **Plano:** selecionar o modelo, selecionar o período e selecionar o tipo de classes em paralelo |
 | 1.1 Selecionar o Modelo | |
 | 1.2 Selecionar o Período | |
 | 1.3 Selecionar o tipo de classes | |
-| **2. Gerar Relatório 1+2** | **Plano:** selecionar o formato de saída e visualizar prévia dos dados simultaneamente |
+| **2. Exportar Relatório 1+2** | **Plano:** selecionar o formato de saída e visualizar prévia dos dados simultaneamente |
 | 2.1 Selecionar o formato de saída | |
 | 2.2 Visualizar Prévia dos dados | |
 | **3. Exportar Dados** | |
