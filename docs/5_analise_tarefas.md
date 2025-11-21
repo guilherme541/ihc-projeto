@@ -160,6 +160,9 @@
       - **OP. 3.A.4:** Confirmar a ação de exportar  
       - **OP. 3.A.5:** Aguardar a conclusão da exportação e verificar se o arquivo foi criado corretamente
 
+## CTT
+![Untitled Diagram (1)](https://github.com/user-attachments/assets/e75077ca-9a6d-4954-a897-74daa606d93d)
+
 
 ## 4. Configuração do Modelo
 
