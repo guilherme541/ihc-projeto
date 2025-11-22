@@ -40,9 +40,29 @@ Usuário final: Empresas de construção civil, equipes de segurança do trabalh
 ```
 
 - Apresente as tecnologias e ferramentas computacionais utilizadas.
- ```diff
-! TO-DO
-```
+  
+1. Software de Modelagem 3D e Renderização
+
+Twinmotion - Geração de cenários virtuais tridimensionais de canteiros de obras
+Unreal Engine - Motor gráfico base do Twinmotion
+
+2. Plataforma de Anotação e Gerenciamento de Dados
+
+Roboflow - Anotação de imagens, gerenciamento de datasets, conversão de formatos e exportação para formato YOLO
+
+3. Arquitetura de Deep Learning
+
+YOLOv8-Large - Arquitetura de detecção de objetos (versão Large)
+Ultralytics (biblioteca que implementa o YOLOv8)
+
+4. Biblioteca de Data Augmentation
+
+Albumentations - Aplicação de transformações geométricas, fotométricas e atmosféricas nas imagens
+
+5. Ambiente de Desenvolvimento e Treinamento
+
+Google Colab - Ambiente de execução com GPU para treinamento dos modelos
+Python (linguagem de programação)
 
 - Apresente o contexto de uso.
   
