@@ -1,9 +1,5 @@
 # Avaliação Heurística
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2ff79c3b-85d5-41a8-a103-e310d790c87a" alt="Tela geral de avaliação heurística" width="800" height="400"/>
-</p>
-
 ---
 
 ## Metodologia
